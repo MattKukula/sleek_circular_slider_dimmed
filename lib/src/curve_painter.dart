@@ -101,22 +101,22 @@ class _CurvePainter extends CustomPainter {
         degreesToCoordinates(center!, -math.pi / 2 + startAngle + currentAngle + 1.5, radius);
     canvas.drawCircle(
       handler,
-      radius,
+      appearance.handlerSize,
       Paint()..color = appearance.dotColor,
     );
     canvas.drawCircle(
       handler,
-      radius + 1,
+      appearance.handlerSize + 1,
       Paint()..color = appearance.dotColor.withOpacity(0.1),
     );
     canvas.drawCircle(
       handler,
-      radius + 2,
+      appearance.handlerSize + 2,
       Paint()..color = appearance.dotColor.withOpacity(0.05),
     );
     canvas.drawCircle(
       handler,
-      radius + 3,
+      appearance.handlerSize + 3,
       Paint()..color = appearance.dotColor.withOpacity(0.025),
     );
   }
