@@ -102,22 +102,22 @@ class _CurvePainter extends CustomPainter {
     canvas.drawCircle(
       handler,
       radius,
-      Paint()..color = Colors.blue,
+      Paint()..color = appearance.dotColor,
     );
     canvas.drawCircle(
       handler,
-      radius + 4,
-      Paint()..color = Colors.blue.withOpacity(0.1),
+      radius + 1,
+      Paint()..color = appearance.dotColor.withOpacity(0.1),
     );
     canvas.drawCircle(
       handler,
-      radius + 6,
-      Paint()..color = Colors.blue.withOpacity(0.05),
+      radius + 2,
+      Paint()..color = appearance.dotColor.withOpacity(0.05),
     );
     canvas.drawCircle(
       handler,
-      radius + 8,
-      Paint()..color = Colors.blue.withOpacity(0.025),
+      radius + 3,
+      Paint()..color = appearance.dotColor.withOpacity(0.025),
     );
   }
 
