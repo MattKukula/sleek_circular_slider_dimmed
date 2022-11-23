@@ -101,7 +101,7 @@ class _CurvePainter extends CustomPainter {
     var dotPaint2 = dotPaint..color.withOpacity(0.5);
     var dotPaint3 = dotPaint..color.withOpacity(0.4);
     var dotPaint4 = dotPaint..color.withOpacity(0.3);
-    var dotPaint5 = dotPaint..color = Colors.red;
+    var dotPaint5 = dotPaint..color = Colors.green;
 
     Offset handler =
         degreesToCoordinates(center!, -math.pi / 2 + startAngle + currentAngle + 1.5, radius);
